@@ -1,0 +1,143 @@
+* {
+  padding: 0;
+  margin: 0;
+  background-color: rgb(2, 2, 39);
+}
+
+.header {
+  color: aliceblue;
+  width: 100%;
+  text-align: center;
+  font-size: 70px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  line-height: 5rem;
+  border-bottom: 1px solid white;
+  margin-top: 40px;
+}
+
+.outerDiv {
+  padding: 3rem;
+}
+
+.mainBody {
+  text-align: center;
+  border: 4px solid red;
+}
+
+.heading {
+  color: rgb(54, 155, 157);
+  margin: 2rem;
+  font-size: 49px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.text {
+  font-size: 1.5rem;
+  text-align: center;
+  border: none;
+  width: 30%;
+  height: 49px;
+  background-color: white;
+}
+
+.btnDiv {
+  border: 5px solid gray;
+  width: 25%;
+  padding: 1.2rem;
+  margin: 2rem auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn {
+  border: none;
+  color: rgb(46, 46, 247);
+  font-size: 1.1rem;
+  cursor: pointer;
+}
+
+.urlBtn {
+  font-weight: bold;
+}
+
+.copyBtn {
+  font-weight: bold;
+}
+
+.shortenUrl {
+  font-size: 2rem;
+  margin-bottom: 1.2rem;
+  cursor: pointer;
+  text-decoration: none;
+  color: white;
+}
+
+.about {
+  color: aquamarine;
+  font-size: 1.5rem;
+  width: 38%;
+  margin: auto;
+  margin-bottom: 1.2rem;
+}
+
+
+
+@media screen and (max-width : 900px) {
+
+  .btn {
+    font-size: 0.8rem;
+  }
+
+  .about {
+    font-size: 1rem;
+    width: 80%;
+  }
+
+}
+
+@media screen and (max-width : 700px) {
+
+  .header {
+    margin-top: 0px;
+    font-size: 2.5rem;
+  }
+
+  .heading {
+    font-size: 2rem;
+  }
+
+  .btn {
+    font-size: 0.7rem;
+  }
+
+  .about {
+    font-size: 1rem;
+  }
+
+  .text {
+    width: 50%;
+  }
+
+  .btnDiv {
+    width: 40%;
+  }
+
+}
+
+@media screen and (max-width : 433px) {
+
+.btn {
+  }
+
+ .about {
+  }
+
+  .text {
+    width: 80%;
+  }
+
+  .btnDiv {
+    width: 60%;
+  }
+
+}
